@@ -1,0 +1,24 @@
+{
+    "name": "gkimball/backup2s3",
+    "description": "Backup files to S3",
+    "version" : "1.0",
+    "type": "project",
+    "require": {
+        "aws/aws-sdk-php": "^3.21",
+        "aws/aws-sdk-php-resources": "^0.3.0",
+        "comodojo/zip": "^2.1",
+        "spatie/db-dumper": "^2.4"
+    },
+    "authors": [
+        {
+            "name": "Grant Kimball",
+            "email": "webmaster@yourlocalwebmaster.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4" : {
+            "Backup\\":"core/classes"
+        }
+    }
+}
