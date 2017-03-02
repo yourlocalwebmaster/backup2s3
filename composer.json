@@ -1,7 +1,7 @@
 {
     "name": "gkimball/backup2s3",
     "description": "Backup files to S3",
-    "version" : "1.0",
+    "version" : "1.1",
     "type": "project",
     "require": {
         "aws/aws-sdk-php": "^3.21",
