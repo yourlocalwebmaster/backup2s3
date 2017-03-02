@@ -14,6 +14,7 @@ This script should backup the files in any directory, as well as X databases, an
 
 The policy should look like this: (Where BUCKETNAME is the lowercase name of bucket)
 ```
+
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -26,6 +27,7 @@ The policy should look like this: (Where BUCKETNAME is the lowercase name of buc
         }
     ]
 }
+
 ```
 
 ##INSTALLATION ON SITE
