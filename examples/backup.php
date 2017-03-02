@@ -33,7 +33,7 @@
                 'host'=>'localhost',
                 'user'=>'root',
                 'name'=>'test_db',
-                'pass'=>'hJBV9hd4mowREN',
+                'password'=>'hJBV9hd4mowREN',
             ],
             // ...
         ];
